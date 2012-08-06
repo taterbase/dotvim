@@ -11,9 +11,12 @@ set scrolloff=5
 set history=200
 set smartindent
 set clipboard=unnamed
+set autochdir
 colorscheme lucius
 syntax on
 filetype plugin indent on
+
+let &t_Co=256
 
 "Prevent auto-comments
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
