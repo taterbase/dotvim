@@ -10,7 +10,6 @@ set expandtab
 set scrolloff=5
 set history=200
 set smartindent
-set clipboard=unnamed
 colorscheme lucius
 syntax on
 filetype plugin indent on
