@@ -40,8 +40,18 @@ inoremap <expr> )  strpart(getline('.'), col('.')-1, 1) == ")" ? "\<Right>" : ")
 
 "Tab completion (home made)
 inoremap <expr> <Tab> AutoComplete() 
+inoremap <expr> <S-Tab> ShiftAutoComplete()
 
 func AutoComplete()
+  let str = strpart(getline('.'), col('.')-2, 1)
+
+  if !match(str, "[A-Za-z1-9]")
+    return "\<C-N>"
+  else
+    return "\<Tab>"
+endfunc
+
+func ShiftAutoComplete()
   let str = strpart(getline('.'), col('.')-2, 1)
 
   if !match(str, "[A-Za-z1-9]")
