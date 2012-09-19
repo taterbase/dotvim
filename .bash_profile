@@ -1,4 +1,5 @@
 source ~/git-completion.bash
+source ~/.rvm/scripts/rvm
 
 #showing git branches in bash prompt
 function parse_git_branch {
