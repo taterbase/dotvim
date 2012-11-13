@@ -25,3 +25,5 @@ init
 nvm use v0.8.5
 
 ulimit -n 10000
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
