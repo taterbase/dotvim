@@ -59,4 +59,5 @@ func ShiftAutoComplete()
     return "\<Tab>"
 endfunc
 
+"New command to save, refresh Gstatus, and go back to working window
 :command W w|Gstatus|wincmd p
