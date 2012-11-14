@@ -58,3 +58,5 @@ func ShiftAutoComplete()
   else
     return "\<Tab>"
 endfunc
+
+:command W w|Gstatus|wincmd p
