@@ -25,3 +25,15 @@
 [submodule "bundle/haskell"]
 	path = bundle/haskell
 	url = git://github.com/wlangstroth/vim-haskell.git
+[submodule "bundle/typescript"]
+	path = bundle/typescript
+	url = git://github.com/leafgarland/typescript-vim.git
+[submodule "bundle/markdown"]
+	path = bundle/markdown
+	url = git://github.com/tpope/vim-markdown.git
+[submodule "bundle/gist"]
+	path = bundle/gist
+	url = git://github.com/mattn/gist-vim.git
+[submodule "bundle/webapi"]
+	path = bundle/webapi
+	url = git://github.com/mattn/webapi-vim.git

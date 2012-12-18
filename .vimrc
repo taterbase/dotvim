@@ -61,3 +61,7 @@ endfunc
 
 "New command to save, refresh Gstatus, and go back to working window
 :command W w|Gstatus|wincmd p
+
+"Typescript
+autocmd QuickFixCmdPost [^l]* nested cwindow
+autocmd QuickFixCmdPost    l* nested lwindow
