@@ -34,3 +34,6 @@
 [submodule "bundle/webapi"]
 	path = bundle/webapi
 	url = git://github.com/mattn/webapi-vim.git
+[submodule "bundle/colors"]
+	path = bundle/colors
+	url = git@github.com:taterbase/Colour-Sampler-Pack.git
