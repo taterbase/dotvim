@@ -16,6 +16,22 @@ filetype plugin indent on
 
 let &t_Co=256
 
+"***** GIST SETUP *****"
+
+"Private gists by default
+let g:gist_post_private = 1
+
+"Open web browser after making gist
+let g:gist_open_browser_after_post = 1
+
+"Copy gist to clipboard
+let g:gist_clip_comman = 'pbcopy'
+
+"Detect file type when gisting
+let g:gist_detect_filetype = 1
+
+"***** END GIST SETUP *****"
+
 "Prevent auto-comments
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
