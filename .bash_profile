@@ -1,3 +1,5 @@
+export NODE_ENV=local
+
 source ~/git-completion.bash
 source ~/.rvm/scripts/rvm
 
